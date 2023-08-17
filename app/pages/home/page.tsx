@@ -1,11 +1,11 @@
+import NotLoginHomePage from "./NotLogInHomePage";
+
 const HomePage = () => {
 
   return (
     <>
       <div>
-        <div>
-          <h1>home</h1>
-        </div>
+        <NotLoginHomePage />
       </div>
     </>
   )
