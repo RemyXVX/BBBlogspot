@@ -1,7 +1,7 @@
 const NotLoginHomePage = () => {
   return (
-    <div className="pt-8 h-auto md:h-screen">
-      <div className="px-4">
+    <div>
+      <div>
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-2 xl:pl-32">
           Welcome!
         </h1>
