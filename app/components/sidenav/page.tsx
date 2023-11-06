@@ -38,6 +38,9 @@ const SideNav = ({ setPage }: SideNavProps)=> {
         <Link href="#/pages/home/contact">
           <span className="block py-2 pl-2 md:p-4 hover:bg-slate-100 hover:text-slate-400" onClick={() => setPage('contact')}>Contact</span>
         </Link>
+        <Link href="#/pages/home/login">
+          <span className="block py-2 pl-2 md:p-4 hover:bg-slate-100 hover:text-slate-400" onClick={() => setPage('login')}>Login</span>
+        </Link>
       </div>
     </div>
   )

@@ -2,6 +2,7 @@ import NotLoginHomePage from "./NotLogInHomePage";
 import Contact from "./contact/page";
 import News from './news/page'
 import Projects from "./projects/page";
+import Login from "./login/page";
 
 interface HomePageProps {
   selectedPage: string;
@@ -19,6 +20,8 @@ const HomePage = ({ selectedPage }: HomePageProps) => {
         return <Projects />;
       case 'contact':
         return <Contact />;
+      case 'login':
+        return <Login />;
       default:
         return <NotLoginHomePage />;
     }
